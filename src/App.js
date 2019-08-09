@@ -80,7 +80,7 @@ class Player extends React.Component {
     return (
       <div className='item'>
         <div className='image'>
-          <img alt='plrImg' src={this.props.playerImg} />
+          <img alt='plrImg' src={require(`${this.props.playerImg}`)} />
         </div>
         <div className='middle aligned content'>
           <div className='header'>
@@ -101,7 +101,7 @@ class Player extends React.Component {
             <span>Submitted by:</span>
             <img alt='avtImg'
               className='ui avatar image'
-              src={this.props.avatar}
+              src={require(`${this.props.avatar}`)}
             />
           </div>
         </div>

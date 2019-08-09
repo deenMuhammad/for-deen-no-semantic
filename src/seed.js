@@ -10,8 +10,8 @@ window.Seed = (function () {
       club: 'Juventus',
       url: 'https://www.instagram.com/cristiano/?hl=en',
       votes: generateVoteCount(),
-      avatar: "images/avatars/matthew.png",
-      playerImg: "images/players/CR7.jpg"
+      avatar: "./images/avatars/matthew.png",
+      playerImg: "./images/players/CR7.jpg"
     },
     {
       id: 2,
@@ -19,8 +19,8 @@ window.Seed = (function () {
       club: 'Barcelona',
       url: 'https://www.instagram.com/leomessi/',
       votes: generateVoteCount(),
-      avatar: 'images/avatars/kristy.png',
-      playerImg: '~/images/players/LM10.jpg'
+      avatar: './images/avatars/kristy.png',
+      playerImg: './images/players/LM10.jpg'
     },
     {
       id: 3,
@@ -28,8 +28,8 @@ window.Seed = (function () {
       club: 'Liverpool',
       url: 'https://www.instagram.com/mosalah/?hl=en',
       votes: generateVoteCount(),
-      avatar: 'images/avatars/veronika.jpg',
-      playerImg: 'images/players/MS10.jpg'
+      avatar: './images/avatars/veronika.jpg',
+      playerImg: './images/players/MS10.jpg'
     }, 
     {
       id: 4,
@@ -37,8 +37,8 @@ window.Seed = (function () {
       club: 'Tottenham',
       url: 'https://www.instagram.com/hm_son7/?hl=en',
       votes: generateVoteCount(),
-      avatar: 'images/avatars/justen.jpg',
-      playerImg: 'images/players/HS7.jpg'
+      avatar: './images/avatars/justen.jpg',
+      playerImg: './images/players/HS7.jpg'
     }
   ];
 
